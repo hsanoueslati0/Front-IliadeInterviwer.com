@@ -1,0 +1,64 @@
+<app-navbar-admin></app-navbar-admin>
+<section class="vh-100 blurred-background">
+<div class="container py-5 h-100">
+  <div class="row d-flex justify-content-center align-items-center h-100">
+    <div class="col col-xl-10">
+      <div class="card" style="border-radius: 1rem;">
+        <div class="row g-0">
+          <div class="col d-flex align-items-center">
+            <div class="card-body p-4 p-lg-5 text-black">
+              <form>
+                <h5 class="fw-normal mb-3 pb-3" style="letter-spacing: 1px;">Création de compte</h5>
+
+                <div class="form-outline mb-4">
+                  <input type="text" id="login" class="form-control form-control-lg" />
+                  <label class="form-label" for="login">Nom</label>
+                </div>
+
+                <div class="form-outline mb-4">
+                  <input type="text" id="prenom" class="form-control form-control-lg" />
+                  <label class="form-label" for="prenom">Prenom</label>
+                </div>
+
+                <div class="form-outline mb-4">
+                  <input type="email" id="email" class="form-control form-control-lg" />
+                  <label class="form-label" for="email">E-mail</label>
+                </div>
+
+                <div class="form-outline mb-4">
+                  <input type="tel" id="tel" class="form-control form-control-lg" />
+                  <label class="form-label" for="tel">Tel</label>
+                </div>
+
+                <div class="mb-4">
+                  <label class="fw-normal mb-2">Choisir le role:</label>
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="role" id="admin" value="admin" />
+                    <label class="form-check-label" for="admin">Admin</label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="role" id="examinateur" value="examinateur" />
+                    <label class="form-check-label" for="examinateur">Examinateur</label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="role" id="super-admin" value="super-admin" />
+                    <label class="form-check-label" for="super-admin">Super Admin</label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="role" id="candidat" value="candidat" />
+                    <label class="form-check-label" for="candidat">Candidat</label>
+                  </div>
+                </div>
+
+                <div class="pt-1 mb-4">
+                  <button class="btn btn-custom btn-lg btn-block" type="button">Création (Génération de code)</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</section>

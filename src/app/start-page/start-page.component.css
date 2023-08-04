@@ -1,0 +1,151 @@
+@import url("https://fonts.googleapis.com/css?family=Noto+Sans");
+* {
+  position: relative;
+}
+
+.blurred-background::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('https://static.vecteezy.com/system/resources/previews/004/338/537/original/modern-abstract-background-minimalist-dynamic-fluid-shape-blue-and-orange-vector.jpg');
+  background-size: cover;
+  background-position: center;
+  filter: blur(50px);
+  z-index: -1;
+}
+
+.rounded-box {
+  background-color: white;
+  border-radius: 20px;
+  padding: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.rounded-box h1 {
+  font-size: 24px;
+  font-weight: bold;
+  font-family: "Noto Sans";
+}
+
+
+.button {
+  display: inline-block;
+  border-radius: 20px; /* Changed the value to make it rounder */
+  background-color: #f4511e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 15px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin-top: 20px;
+
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+
+
+
+
+
+
+/*@import url("https://fonts.googleapis.com/css?family=Noto+Sans");
+* {
+  position: relative;
+}
+  
+.blurred-background::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('https://static.vecteezy.com/system/resources/previews/004/338/537/original/modern-abstract-background-minimalist-dynamic-fluid-shape-blue-and-orange-vector.jpg');
+    background-size: cover;
+    background-position: center;
+    filter: blur(40px);
+    z-index: -1;
+  }
+
+  
+.wave-btn {
+  color: #fff;
+  text-decoration: none;
+  border: 3px solid #fff;
+  padding: 5px 30px;
+  font-size: 22px;
+  font-weight: 600;
+  font-family: "Noto Sans";
+  line-height: 52px;
+  border-radius: 10px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  overflow: hidden;
+  transition: all 1s;
+}
+  
+.wave-btn:before {
+  content: "";
+  position: absolute;
+  width: 320px;
+  height: 320px;
+  border-radius: 130px;
+  background-color: #0097e6;
+  top: 30px;
+  left: 50%;
+  transform: translate(-50%);
+  animation: wave 5s infinite linear;
+  transition: all 1s;
+}
+  
+.wave-btn:hover:before {
+  top: 15px;
+}
+  
+@keyframes wave {
+  0% {
+            transform: translate(-50%) rotate(-180deg);
+      
+  }
+    
+    
+  100% {
+            transform: translate(-50%) rotate(360deg);
+  }
+}*/

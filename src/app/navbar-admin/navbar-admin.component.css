@@ -1,0 +1,23 @@
+
+  
+  .custom-navbar {
+    background-color: #003366;
+    filter: brightness(100%);
+    width: 100%; 
+    padding-left: 50px; 
+    padding-right: 50px; 
+  }
+  
+  .custom-navbar .navbar-brand {
+    color: #fff; 
+    font-weight: bold; 
+  }
+  
+  .custom-navbar .navbar-nav .nav-link {
+    color: #fff;
+  }
+  
+  .custom-navbar .navbar-nav .nav-link:hover {
+    color: #ff5e00;
+  }
+  

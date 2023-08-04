@@ -1,0 +1,33 @@
+.blurred-background::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('https://static.vecteezy.com/system/resources/previews/004/338/537/original/modern-abstract-background-minimalist-dynamic-fluid-shape-blue-and-orange-vector.jpg');
+  background-size: cover;
+  background-position: center;
+  filter: blur(50px);
+  z-index: -1;
+}
+
+.btn-custom {
+    background-color: #add8e6; 
+    border: 2px solid #4682b4; 
+    color: #4682b4; 
+    transition: all 0.3s ease;
+  }
+  
+ 
+  .btn-custom:hover {
+    background-color: #ffebcd;
+    border: 2px solid #ff5e00; 
+    color: #ff5e00;
+  }
+  
+ 
+.logo {
+  max-width: 190px; 
+  margin: 0 auto; 
+}

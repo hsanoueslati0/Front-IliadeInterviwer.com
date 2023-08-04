@@ -1,0 +1,20 @@
+.btn-custom {
+    background-color: #add8e6; 
+    border: 2px solid #4682b4; 
+    color: #4682b4; 
+    transition: all 0.3s ease;
+  }
+  
+ 
+  .btn-custom:hover {
+    background-color: #ffebcd;
+    border: 2px solid #ff5e00; 
+    color: #ff5e00;
+  }
+  
+ 
+.logo {
+  max-width: 190px; 
+  margin: 0 auto; 
+}
+
